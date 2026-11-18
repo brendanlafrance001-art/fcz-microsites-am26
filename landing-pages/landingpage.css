@@ -1,0 +1,3 @@
+.fcz-nav-list ul > li::after {
+    background-image: url("assets/arrow-down.png")
+}
