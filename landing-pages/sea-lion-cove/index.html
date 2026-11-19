@@ -1,16 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<header class="fcz-site-header">
-  <div class="fcz-header-container">
-    <a href="../../index.html" class="fcz-logo-link" aria-label="Fresno Chaffee Zoo Home">
-      <img src="../../assets/images/fcz-logo.svg" alt="Fresno Chaffee Zoo Logo" class="fcz-logo">
-    </a>
-    <nav class="fcz-main-nav" aria-label="Main Navigation">
-      <ul class="fcz-nav-list">
-        <li><a href="../../index.html" class="fcz-nav-link">Home</a></li>
-        <li><a href="../index.html" class="fcz-nav-link active">Exhibit Portal</a></li>
-        <li><a href="https://fcz.org/plan-your-visit/" class="fcz-nav-link" target="_blank" rel="noopener">Plan Your Visit</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../landingpage.css">
+</head>
+<body>
+  <header class="fcz-site-header">
+    <div class="fcz-header-container">
+      <a href="../../index.html" class="fcz-logo-link" aria-label="Fresno Chaffee Zoo Home">
+        <img src="../assets/fcz-logo.png" alt="Fresno Chaffee Zoo Logo" class="fcz-logo">
+      </a>
+      <nav class="fcz-main-nav" aria-label="Main Navigation">
+        <ul class="fcz-nav-list">
+          <li><a href="../../index.html" class="fcz-nav-link">Home</a></li>
+          <li><a href="../index.html" class="fcz-nav-link active">Exhibit Portal</a></li>
+          <li><a href="https://fcz.org/plan-your-visit/" class="fcz-nav-link" target="_blank" rel="noopener">Plan Your Visit</a></li>
+          <li>VISIT</li>
+          <li>
+            <span>Animals</span>
+            <ul class="dropdown-menu">
+              <li><a href="../sea-lion-cove/index.html">Sea Lion Cove</a></li>
+              <li><a href="../stingray-bay/index.html">Stingray Bay</a></li>
+              <li><a href="index.html">Roo Walkabout</a></li>
+            </ul>
+          </li>
+          <li>EVENTS</li>
+          <li>CONSERVATION</li>
+          <li>LEARNING</li>
+          <li>SUPPORT</li>
+          <li>BLOG</li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero-banner">
+      <h1>Roo Walkabout</h1>
+      <p>Experience our iconic Australian animals in this immersive outback habitat.</p>
+    </section>
+
+    <div class="columns">
+      <section class="columnleft">
+        <h2>About the Exhibit</h2>
+        <p>Roo Walkabout is an Australian walk-through exhibit which features red kangaroos, wallaroos, wallabies, emu and kookaburras in a unique, multi-species exhibit setting!</p>
+        
+        <h2>Hours</h2>
+        <p>9:00AM</b>-12:00PM</b> (MON-THURS)</p>
+        <p>9:00AM-4:00PM (FRI-SUN)</p>
+      </section>
+      <section class="columnright">
+        <img class="kangaroodeco" src="../assets/Kangaroo.png" alt="Front-facing photo of a Kangaroo.">
+      </section>
+    </div>
+
+    <section class="animals">
+      <h2>Meet the Animals</h2>
+      <div class="card-columns">
+        <ul class="cards">
+          <li class="card1">
+            <a href="../../exhibits/sea-lion-cove/california-sea-lions.html">
+              <p>Red Kangaroo</p>
+              <img src="../assets/Red-Kangaroo.png" alt="A photo of two Red Kangaroos lying down on dirt." class="cardimg">
+            </a>
+          </li>
+          <li class="card2">
+            <a href="../../exhibits/sea-lion-cove/harbor-seal.html">
+              <p>Wallaroo</p>
+              <img src="../assets/Wallaroo.png" alt="A photo of a Wallaroo standing still on grass." class="cardimg">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <div id="column Left">
+        <img src="../assets/fcz-logo.png" alt="Fresno Chaffee Zoo With a Tiger Eye" id ="footer-logo" width = "10%">
+        <p><b>Fresno Chaffee Zoo</b></p>
+        <p><b>894 West Belmont Ave.</b></p>
+        <p><b>Fresno, California 93728</b></p>
+        <p><b>(559) 498-5910</b></p>
+        <p><b>Get Directions</b></p>
+        <p><b>Contact Us</b></p>
+      </div>
+
+      <div id="column-middle">
+          <p><b>Our History</b></p>
+          <p><b>Executive Team</b></p>
+          <p><b>Measure Z</b></p>
+          <p><b>FCZ Corporation</b></p>
+          <p><b>Reports, RFQs, RFPs, & RFLs</b></p>
+          <p><b>Media Center</b></p>
+          <p><b>Careers</b></p>
+          <p><b>Privacy Policy</b></p>
+          <p><b>Cookie Policy</b></p>
+          <p><b>Terms & Conditions</b></p>
+      </div>
+      <div id="column-right">
+        <form action="" method="post">
+          <h2>GET THE LATEST ZOO INFO & MORE!</h3>
+          <div class="signup first-name">
+            <label for="first-name">
+              <input type="text" id="first-name" name="first-name" placeholder="First Name">
+          </div>
+          <div class="signup last-name">
+            <label for="last-name">
+              <input type="text" id="last-name" name="last-name" placeholder="Last Name">
+          </div>
+          <div class="signup phone-number-area">
+            <label for="phone-number-area">
+              <input type="text" id="phone-number-area" name="phone-number-area" placeholder="(###)">
+          </div>
+          <div class="signup phone-number-prefix">
+            <label for="phone-number-area">
+              <input type="text" id="phone-number-prefix" name="phone-number-prefix" placeholder="###">
+          </div>
+          <div class="signup phone-line-number">
+            <label for="phone-line-number">
+              <input type="text" id="phone-line-number" name="phone-line-number" placeholder="###">
+          </div>
+          <div class="signup email">
+            <label for="email">
+              <input type="text" id="email" name="email" placeholder="email">
+          </div>
+        </form>
+      </div>
+    </footer>
+
+  </main>
+</body>
+</html>
