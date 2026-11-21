@@ -19,7 +19,13 @@ body {
     justify-content: center;
 }
 
-.kangaroodeco {
+/* .kangaroodeco {
     width: 800px;
     height: 800px;
+} */
+
+.bg {
+    background-image: url(../assets/roo-walkabout-bg.png);
+    background-size: cover;
+    padding-bottom: 9rem;
 }
